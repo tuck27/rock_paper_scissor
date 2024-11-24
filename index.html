@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h4>Welcome to </h4>
+    <h1>Rock, Paper, Scissors!</h1>
+    
+
+    <main>
+        <section class="game-container">
+            <p>Player</p>
+            <div class="choice-container" id="player-choice-container">
+                <p class="emoji">🪨</p>
+                <p class="emoji">📄</p>
+                <p class="emoji">✂️ </p>
+            </div>
+        </section>
+        <h3>VS</h3>
+        <section class="game-container">
+            <p>Computer</p>
+            <div class="choice-container">
+                <p class="emoji" id="emoji-shuffle"></p>
+            </div>
+        </section>
+    </main>
+    <h2 id="game-result-message"></h2>
+    <script src="error-handler.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
